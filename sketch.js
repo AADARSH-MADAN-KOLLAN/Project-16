@@ -24,7 +24,7 @@ function preload() {
 
 
 function setup() {
-  createCanvas(windowWidth, windowHeight, 400, 400);
+  createCanvas(400, 400, windowWidth, windowHeight);
   jungle = createSprite(200, 200, 400, 20);
   jungle.addImage("jungle", jungleImage);
   jungle.scale = 0.8;
